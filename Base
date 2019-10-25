@@ -1,0 +1,14 @@
+pragma solidity 0.5.11;
+
+  //BASE
+  Contract Base {
+ 
+ 
+   }
+   
+   //TEST
+   modifier public owner() {
+   
+   owner = msg.sender[];
+   
+   }
